@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/detail_01.html# -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=1400">
+    <title>crocs 크록스</title>
+
+
+    <link rel="stylesheet" href="./css/detail_01.css">
+</head>
+
+<body>
+    <header>
+        <a href="http://127.0.0.1:5500/detail_01.html#">
+            <img src="./images/crocs_logo.png" alt="로고" class="logo">
+        </a>
+    </header>
+
+    <!-- 상품 주문창 -->
+    <div id="product">
+        <div class="img">
+            <img src="./images/sunmi_crocs.png" alt="product">
+        </div>
+        <div class="right">
+            <div class="border">
+                <h1>선미 X 크록스 썸머 컬렉션</h1> 
+                <h2>64,900원 ~ 119,000원</h2>
+                <h3>새터데이 시리즈</h3>
+                <dl>
+                    <dt>- 새터데이 플랫폼 샌들 우먼</dt>    
+                    <dt>- 새터데이 메탈릭 버클 샌들 우먼</dt>    
+                    <dt>- 새터데이 플랫폼 딥디드 버클 샌들 우먼</dt>    
+                </dl>
+                <h3>클래식 시리즈</h3>
+                <dl>
+                    <dt>클래식 애니멀 발레</dt>
+                    <dt>클래식 발레</dt>
+                </dl>
+                <h3>뉴 크러쉬 클로그</h3>
+                <br><br>
+                <p>Hello, summer <br>
+                    Hello, sandle season <br>
+                    다가오는 뜨거운 여름, 선미 X 크록스 콜라보로 특별한 여름의 주인공이 되어보세요.
+                </p>
+            </div>
+            <table class="selectbox">
+                <tbody><tr>
+                    <th>제품선택</th>
+                    <td>
+                        <select name="option">
+                            <option value="*">옵션을 선택해 주세요.</option>
+                            <option value="platform">새터데이 플랫폼 샌들 우먼</option>
+                            <option value="metal">새터데이 메탈릭 버클 샌들 우먼</option>
+                            <option value="dipped">새터데이 플랫폼 딥디드 버클 샌들 우먼</option>
+                            <option value="animal">클래식 애니멀 발레</option>
+                            <option value="ballet">클래식 발레</option>
+                            <option value="crush">뉴 크러쉬 클로그</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>수량</th>
+                    <td>
+                        <select name="number">
+                            <option value="*">옵션을 선택해 주세요.</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody></table>
+            <ul class="order">
+                <li><a href="http://127.0.0.1:5500/detail_01.html#">장바구니</a></li>
+                <li><a href="http://127.0.0.1:5500/detail_01.html#">구매하기</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 상세페이지 -->
+    <div class="main">
+        <img src="./images/crocs_complete.png" alt="page1">
+    </div>
+
+    <!-- 푸터 -->
+     <div class="footer">
+        <img src="./images/crocs_footer2.png" alt="로고">
+    </div>
+    <div class="footer">
+        <img src="./images/crocs_footer1.png" alt="로고">
+    </div>
+
+    <!-- 탑버튼 -->
+    <a href="http://127.0.0.1:5500/detail_01.html#" class="top_btn">
+        <img src="./images/top.png" alt="탑 버튼">
+    </a>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
