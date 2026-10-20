@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+/* font */
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css');
+
+html{
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+	font-size: 14px;
+	line-height: 1.5;
+	color: #131316;
+	min-width: 1200px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+/* header */
+header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.3);
+	backdrop-filter: blur(5px);
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+}
+
+/* 상품 주문창 */
+#product {
+	width: 1200px;
+	margin: 90px auto 0;
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.right h1 {
+	font-weight: 500;
+	font-size: 27px;
+}
+
+.right h2 {
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 30px;
+}
+
+.right h3 {
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 30px;
+}
+
+.right dl {
+	margin: 10px 5px;
+}
+
+.right dt {
+	padding-bottom: 5px;
+}
+
+.border {
+	border-bottom: 1.5px solid #131316;
+	padding-bottom: 20px;
+}
+
+.selectbox{
+	margin: 20px 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+.selectbox th{
+	text-align: left;
+	font-weight: 400;
+}
+.selectbox th, .selectbox td{
+	padding: 10px 0;
+}
+.selectbox select{
+	outline: none;
+	width: 100%;
+	padding: 10px;
+}
+
+.order {
+	display: flex;
+	justify-content: space-between;
+	gap: 5px;
+}
+
+.order li{
+	flex: 1;
+	text-align: center;
+}
+
+.order li a {
+	border: 1px #131316 solid;
+	color: #131316;
+	display: block;
+	padding: 20px 0;
+}
+
+.order li:nth-child(2) a {
+	background-color: #131316;
+	color: #fff;
+}
+
+.order li a:hover {
+	background-color: rgba(19, 19, 22, 0.5);
+	color: #fff;
+}
+
+
+/* 상세페이지 */
+.main {
+	width: 860px;
+	margin: 180px auto;
+}
+
+
+/* 제품 정보 */
+.info{
+	width: 860px;
+	margin: 0px auto 100px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.info h1 {
+    font-size: 25px;
+    font-weight: 400;
+}
+.info h2 {
+    font-weight: 500;
+    font-size: 20px;
+	padding: 35px 0 8px;
+	border-bottom: 1px solid #131316bf;
+	margin-bottom: 14px;
+}
+.info ol{
+	list-style: decimal inside;
+}
+
+.info .ol_in{
+	padding-left: 20px;
+	list-style: circle inside;
+}
+
+
+/* 푸터 */
+.footer {
+	background-color: #131316;
+	padding: 20px 0;
+}
+.footer img{
+	display: block;
+	margin: auto;
+	width: 100px;
+	filter: brightness(10);
+}
+
+
+/* 탑 버튼 */
+.top_btn{
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	z-index: 99;
+}
+.top_btn img{
+	display: block;
+	width: 50px;
+}
+
